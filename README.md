@@ -16,5 +16,13 @@ This project models the core database structure of a university LMS, including d
 ## How to Run
 
 1. Open **SQL Server Management Studio (SSMS)**.
-2. Open `LMS_Database.sql` (or `SQLQuery2.sql`).
+2. Open `LMS_Database.sql`.
 3. Press **F5** (Execute) to create the `LMS_DB` database, insert the sample data, and test the view.
+
+## Database Schema & Query Output
+
+### Entity-Relationship (ER) Diagram
+![ER Diagram](er_diagram.png)
+
+### Student Courses View Output (`vw_OgrenciTumDersler`)
+![View Output](view_output.png)
